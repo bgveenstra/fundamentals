@@ -12,19 +12,17 @@
 
 # Functions
 
-Now that we've had the opportunity to learn the basics of JavaScript including data types and control flow; now it's time to learn functional programming.
+We've had the opportunity to learn the basics of JavaScript including data types and control flow; now it's time to learn functional programming.
 
-But first... a little math.
+**Function** is a term that comes out of mathematics as a relationship between a set of inputs and a set of outputs. You may remember some function notation from high school math classes.
 
-**Function** is a term that comes out of mathematics. You may remember seeing it in a high school algebra class. The basic idea of a function is simple - it's a relationship between a set of inputs and a set of outputs.
-
-Consider the relationship between a variable `x` and the function `f`. The function `f` takes the input `x` and spits out a single output (`f(x)`).
+For example, we can imagine a function `f` that takes the input `x` and spits out a single output: `f(x)`.
 
 <br>
 <center><img src="../assets/chapter5/function.png"></center>
 <br>
 
-If we were shown the output (`f(x)`) for each value of `x`:
+If you have a function where the output is double the input, this relationship is written as `f(x) = 2 * x`. We can write out the output (`f(x)`) for various values of `x`:
 
 | x  | f(x) |
 |:-: |:-:   |
@@ -34,10 +32,27 @@ If we were shown the output (`f(x)`) for each value of `x`:
 | 2  | 4    |
 | 3  | 6    |
 
-We could figure out that the relationship between `x` and `f(x)` is that the output is equal to double the input.  In algebra, this relationship is written as `f(x) = 2 * x`. Nothing unfamiliar going on here, right?
 
-Functions play a similar role in programming – JS Functions, like mathematical functions, perform transformations. They take input values and return an output value.
+JavaScript Functions, like mathematical functions, perform transformations. They take in input values and return an output value. Luckily, functions and inputs in JavaScript are just going to be variables; we can give them clearer names than `f` and `x`.
 
+For a sneak peek, here's how we might set up and use a JavaScript function that doubles its input.
+
+```js
+// set up or "define" the function for a variable input
+function double(number) {
+  return number * 2;
+}
+
+// use or "call" the function with 10 as the input
+double(10);
+```
+
+A function call is just another kind of JavaScript expression. It evaluates to whatever output the function returns. In the example above, the expression `double(10)` evaluates to 20.
+
+You'll notice most function names are verbs or verb phrases. This is because functions are good for behaviors and actions.  Some other function names are:
+
+- alert
+- prompt
 
 
 # The Document Object Model
