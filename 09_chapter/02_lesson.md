@@ -21,9 +21,6 @@ The condition is what's inside the parentheses; if that condition is truthy, the
 
 Let's take a step back for a minute, and consider something that's closer to our own experience: a flow chart.
 
-![XKCD Flow Chart](../assets/chapter4/flow_charts.png)
-*<small>src: [http://xkcd.com/518/](http://xkcd.com/518/)</small>*
-<br>
 
 A flow chart is a visual diagram telling us how to behave, depending on some set of conditions. If we were to try to draw a flow chart to describe an `if` statement, we might come up with something like this:
 
@@ -100,105 +97,6 @@ if (x > 5) {
 
 Try copying that whole statement into JS Bin, and testing out different values for `x`. Were your answers correct?
 
-
-## Switch Statement
-
-As we've seen before, we can choose which condition will be executed using `if...else if...else`; however, if we have a lot of conditions, the code become a bit repetitive and hard to read. For example:
-
-```javascript
-// day of the week in a number, sunday is 0, saturday is 6
-var dayNumber = 1;
-if(dayNumber === 0){
-  day = 'Sunday';
-} else if(dayNumber === 1) {
-  day = 'Monday';
-} else if(dayNumber === 2) {
-  day = 'Tuesday';
-} else if(dayNumber === 3) {
-  day = 'Wednesday';
-} else if(dayNumber === 4) {
-  day = 'Thursday';
-} else if(dayNumber === 5) {
-  day = 'Friday';
-} else if(dayNumber === 6) {
-  day = 'Saturday';
-} else {
-  day = null;
-  alert('wrong value for day');
-}
-```
-
-What this code does, fundamentally, is pretty simple - it takes in a number (representing a particular day of the week) and spits out a string containing the name of that day. However, this code is not easy to read, and a lot of code is repeated - for example,
-  `} else if(dayNumber === __ ) {`
-is repeated 7 times. What's more, if we ever want to change the name of our `dayNumber` variable, we'll need to swap it out every times it appears, which is a bit of a pain.
-
-Enter the `switch` statement:
-
-```javascript
-var dayNumber = 1;
-
-switch (dayNumber) {
-  case 0:
-    day = 'Sunday';
-    break;
-  case 1:
-    day = 'Monday';
-    break;
-  case 2:
-    day = 'Tuesday';
-    break;
-  case 3:
-    day = 'Wednesday';
-    break;
-  case 4:
-    day = 'Thursday';
-    break;
-  case 5:
-    day = 'Friday';
-    break;
-  case 6:
-    day = 'Saturday';
-    break;
-  default:
-    day = null;
-    alert('wrong value for day');
-}
-```
-This code works exactly the same as our `if..else..if`, but although it's slightly longer (in terms of lines), it is significantly easier to read.
-
-In a `switch` statement, the variable in parentheses (in this case, `dayNumber`) gets evaluated; if there is a `case` listed for the value that it evaluates to, the code between `case __:` and `break` will be executed. If there is no `case` that matches the value of the variable, the `default` will be executed (if it is specified - if not, the program will do nothing).
-
-> **Note**: If there is no `break;` at the end of a `case`, the computer will not skip to the end, but will instead start  executing the *next* case's code (even if `case`'s value is different from the variable'), and will continue doing so until it eventually hits a `break;` statement. For this reason, `default` never needs a `break;` statement, because it's the last `case` in the `switch`.
-
-Although the `switch` statement sometimes has some advantages over `if...else if... else`, it also has some major disadvantages. For instance, a `switch` statement will only work if you are testing the same variable (or expression) in every condition; if not, the `if...else if...else` is your only option. Also, depending on the circumstances, using `if...else if...else` might scan more naturally.
-
-### Test Yourself
-Consider the following `switch` statement.
-
-```javascript
-switch (2 * x) {
- case 2:
-    y = 49;
-    break;
- case 4:
-    y = 37;
-    break;
- case 6:
-    y = 25;
-    break;
- case 8:
-    y = 13;
-    break;
- default:
-    y = 1;
-}
-```
-
-What value will `y` be assigned when `x` is ...
-* 1?
-* 4?
-* 0?
-* "Hello"?
 
 ---
 
