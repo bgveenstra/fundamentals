@@ -4,8 +4,11 @@
 
 # HTML Cheat Sheet
 
+#### Internet
+* A global system of interconnected computer networks that can communicate in various ways.
+
 #### World Wide Web
-* An information sharing model built on top of a global system of interconnected computer networks called the Internet.
+* An information sharing model, built on top of the internet, that uses the Hypertext Transfer Protocol (HTTP) to pass data among computers.
 
 #### Websites
 * Collections of files, accessible through the world wide web.
@@ -14,15 +17,15 @@
 * Personal devices - such as computers, phones, or tablets - used to access the web.
 
 #### Servers
-* Used to host massive amounts of the files that make up websites and “serve” files to end users.
+* Computers used to host files that make up websites and “serve” or send those files to end users.
 
 #### Elements
-* The building blocks of HTML. Consists of a start tag, content, and end tag.
+* The building blocks of HTML. An element consists of a start tag, content, and end tag.
 
-  * Headline Elements: are meant to be used for important text that titles the content that comes after it. They range from —the largest—to —the smallest.
+  * Headline Elements: are meant to be used for important text that titles the content that comes after it. They range from `<h1>` — the largest — to `<h6>` — the smallest.
 
       ```html
-      <h1>This would make a big headline</h1>
+      <h1>This would make a big headline!</h1>
       ```
 
   * Paragraph Elements: are one of the most basic tags in HTML. They indicate blocks of text.

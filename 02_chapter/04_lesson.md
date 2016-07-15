@@ -1,10 +1,29 @@
-**WDI Fundamentals Unit 2**
+**FEWD Fundamentals Unit 2**
 
 ---
 
-#The Boilerplate
+#HTML Boilerplate
 
-Now that we've learned a bit about HTML tags, it's time to think about how to properly organize them. An HTML boilerplate is simply a set of structural elements that help us organize our code. That way, we can read through our HTML page seamlessly! Watch the following video to understand how to create an HTML boilerplate.
+We've learned a bit about HTML tags, but we don't know much yet about their context and how to properly organize tags. To do this, we'll look at some HTML boilerplate code. In web development, "boilerplate" code is standard code that can be reused as a starting point for many different projects.  The HTML boilerplate gives a standard, starter set of structural elements that help us organize the rest of our code. This helps developers read through HTML smoothly, and it tells browsers how to format a site! Always use the HTML boilerplate in your HTML documents.
+
+Here's a common HMTL boilerplate:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- metadata (information about the site) -->
+    <!-- links to other files used on the site -->
+  </head>
+  <body>
+    <!-- page content -->
+  </body>
+</html>
+```
+
+> Note: The lines wrapped with `<!-- -->` are comments. The browser ignores these lines when rendering the page, because the information inside is meant to **human** developers understand more about the code.  
+
+Watch the following video to learn more about HTML boilerplate.
 
 <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="//fast.wistia.net/embed/iframe/7mhg28is61?seo=false&videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe></div></div>
 <script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
@@ -12,9 +31,8 @@ Now that we've learned a bit about HTML tags, it's time to think about how to pr
 
 #### Checkpoint
 
-* Which tags don't require a closing tag?
+* What's an example of a tag that doesn't require a closing tag?
 * Between which tags should the `<title> </title>` tags be placed?
-* What are parent elements? Children elements?
----
+* What does it mean for one element to be the "parent" of another element? What is a "child" element?
 
-[Let's get some practice now!](05_exercise.md)
+---

@@ -4,7 +4,7 @@
 
 ##![Your Turn](../assets/exercise.png) Your Turn
 
-In this exercise, you'll write your first **hyperlinks**: those magical, clickable links that get you from one place to another on the web!
+In this exercise, you'll write your first **hyperlinks**: those wonderful, clickable links that get you from one place to another on the web!
 
 When complete, your output should look like this:
 
@@ -30,18 +30,16 @@ Send me an email.*
 
 4 . Wrap the text "Follow me" in an *anchor element* (with `<a>` and `</a>`).
 
-5 . The opening `<a>` tag needs a **h**yperlink **r**eference **a**ttribute, so it knows where to go when clicked. Go ahead and link to your to your twitter (or other social media) page.
-
-> **NOTE** If you aren't on social media, link to any website you want!
+5 . The opening `<a>` tag needs a <strong>h</strong>yperlink <strong>ref</strong>erence attribute, so the browser knows where to go when the `<a>` is clicked. Go ahead and link to your twitter or other social media page, or to any website you want!
 
 Example:
 `<a href="http://twitter.com/GA">Follow me</a> on twitter.`
 
-> **NOTE** One more thing! Sometimes you won't know which link destinations you want until you've finished coding your site. In those cases, you can substitute a hash symbol as a placeholder, like so: `Send me an <a href="#">email</a>.`
+> **NOTE** One more thing! Sometimes you won't know which link destinations you want until you've finished coding your site. In those cases, you can substitute a hash symbol as a placeholder, like so: `Check out <a href="#">tomorrow's lottery numbers</a>!` This link still shows up, but clicking it just makes the browser jump to the top of the page.
 
-5 . Now, wrap an empty *anchor* around the word "email" on the second line.
+5 . Now, wrap an empty *anchor* tag around the word "email" on the second line.
 
-6 . Put `mailto`: in front of your email address, so the browser knows it's not a web page!
+6 . In the `href`, put `mailto:` in front of your email address. This tells the browser to treat the hyperlink reference as an email address instead of a web page!
 
 `Send me an <a href="mailto:me@email.com"> email </a>.`
 
@@ -49,8 +47,7 @@ Example:
 
 
 
-Click on the **OUTPUT** button to see what your HTML code renders.
-
+Click on the **OUTPUT** button to see what your HTML code renders. Try clicking on both anchor elements in the output to see the effects of web page links and mailing links.
 
 ---
 
@@ -61,12 +58,10 @@ Make sure you have:
 
 - Made the introductory sentence a top-level heading with a `<h1>` tag and closed it with a `</h1>`tag.
 - Wrapped the rest of the content in two paragraphs, or p elements.
-- Linked to your twitter (or some other social media) page.
-- Created an email link with the proper email or placeholder.
+- Linked to another web page.
+- Created an email link with the proper email or with a  placeholder.
 
 
 You can do a lot of neat things using attributes and links. Let's keep going!
 
 ---
-
-[Your turn! Time to take the Unit 2 Quiz. ](06_quiz.md)

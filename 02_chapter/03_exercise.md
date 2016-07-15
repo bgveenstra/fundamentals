@@ -12,7 +12,7 @@ Your output should look like this:
 
 ### Instructions
 
-Type your answers directly into the text editor below. Click the **Output** button at the top of the editor to see how your html code renders.
+Type your answers directly into the JSBin text editor below. Click the **Output** button at the top of the editor to see how your html code renders, or displays in the browser.
 
 1 . Let's start with some content! Type the text below into your editor.
 
@@ -22,8 +22,6 @@ by a talented student
 Built with WDI at GA.
 ```
 
-<a class="jsbin-embed" href="http://jsbin.com/zevojec/embed?html&height=600px">JS Bin on jsbin.com</a><script src="http://static.jsbin.com/js/embed.min.js?3.35.11"></script>
-
 2 . Go ahead and open a *level one heading tag* at the very beginning where it says "My first website!"
 
 3 . Did you notice that everything was set to h1 when you opened the level one heading tag? Ah ha! You still need to close the tag, which tells the browser when to stop rendering as a heading. Go ahead and close the heading tag now.
@@ -31,6 +29,9 @@ Built with WDI at GA.
 4 . Open and close *second-level heading* on the second line "by a talented student."
 
 5 . Last, wrap the sentence "Built with WDI at GA." in a paragraph tag.
+
+<a class="jsbin-embed" href="http://jsbin.com/zevojec/embed?html&height=600px">JS Bin on jsbin.com</a><script src="http://static.jsbin.com/js/embed.min.js?3.35.11"></script>
+
 
 
 ---
@@ -43,7 +44,7 @@ Make sure you have:
 - Opened and closed p tags around the site's body content.
 
 
-Sweet! You just built a website with HTML. Ok sure, it's pretty basic, but you're just getting started!!
+Sweet! You just built a website with HTML. It's pretty basic, but you'll learn way more about how to add structure, style, and interactivity as you go!!
 
 ----
 [On to the next lesson!](04_lesson.md)
