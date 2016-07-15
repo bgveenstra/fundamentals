@@ -14,5 +14,3 @@ The internet and the world wide web are very different entities; however, they a
 
 
 ---
-
-[On to the next lesson!](03_lesson.md)
