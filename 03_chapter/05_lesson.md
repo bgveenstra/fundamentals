@@ -16,5 +16,3 @@ Phew! That's a lot of new information to process! Sometimes it can be difficult 
 * How do you create hyperlinks?
 
 ---
-
-[Ready to get some practice?](06_exercise.md)

@@ -16,7 +16,7 @@ As you learn to style your website, you'll want to get more creative with the ty
 
 To adjust the font of your selected text element, use the font-family property. For the value, enter the name of the font to which you’d like to alter your text. To be safe, try putting a comma after your selected font and enter a generic family as a fallback. If the web browser doesn’t support the font you selected, it will choose the fallback.
 
-```html
+```css
 h1 {
      font-family: Arial, sans-serif;
 }
@@ -24,7 +24,7 @@ h1 {
 
 If your selected font is more than one word, capitalize both words and put them in quotation marks.
 
-```html
+```css
 h1 {
      font-family: "Courier New", monospace;
 }
@@ -40,33 +40,33 @@ h3 {
 }
 ```
 
-As you become more advanced, try using percentages or ems instead of pixels. These can be pretty tricky, though, so you may want to wait until we cover them in Unit 9.
+As you become more advanced, you'll learn to use percentages, `em`s, or `rem`s instead of pixels. These other units are more suited to working with various screen sizes and responsive design.
 
 
 **font-weight**
 
 To adjust the thickness of your selected text, use the font-weight property.
 
-As a beginner, you can enter values like “normal” to make your text thin and “bold” to make your text thick. As these values aren’t very specific, different browsers may interpret their display with slightly different outputs.
+The font-weight property can take values like “normal” to make your text thin and “bold” to make your text thick. As these values aren’t very specific, different browsers may interpret their display with slightly different outputs.
 
 ```css
 h1 {
      font-weight: normal;
 }
 
-h1 {
+a {
      font-weight: bold;
 }
 ```
 
-As you become more advanced, try using the numbers 100, 200, 300, 400, 500, 600, 700, 800, and 900 as values to gain more granular control. With this system, 400 is roughly equivalent to “normal” and 700 roughly equals “bold.”
+You can get more granular control by using the numbers 100, 200, 300, 400, 500, 600, 700, 800, and 900 as values. With this system, 400 is roughly equivalent to “normal” and 700 roughly equals “bold.”
 
 ```css
 h1 {
      font-weight: 400;
 }
 
-h1 {
+a {
      font-weight: 700;
 }
 ```
@@ -76,7 +76,7 @@ h1 {
 To make normal text italic, use the property font-style and the value “italic.” To reverse this effect, use the value “normal.”
 
 ```css
-a {
+h3 {
      font-style: italic;
 }
 
@@ -105,14 +105,14 @@ h1 {
 }
 ```
 
-To remove underlines, use the value “none.” This declaration is often applied to anchor tags.
+To remove underlines, use the value “none.” This declaration is often applied to anchor tags since most browsers give them an underline by default.
 
 ```css
 a {
      text-decoration: none;
 }
 ```
-Less commonly used values include “overline” to add a line above text and “line-through” which strikes a line through your text.
+Less commonly used values include “overline” to add a line above text and “line-through,” which strikes a line through your text.
 
 **text-transform**
 
@@ -130,15 +130,10 @@ h1 {
 
 Did you know you can also link to external fonts in your HTML? Let's try it!
 
-There are three parts to loading up a web font with HTML. The href tells the browser where the font is.
+There are three parts to loading up a web font with HTML. First, you'll use a `<link>` tag.  The href tells the browser where the font is.
 
 `<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,800" rel="stylesheet" type="text/css">`
 
 Here we want to open Sans font, in two weights: 400 for body text, and 800 for headings. The rest of this tells the HTML that the link goes to a CSS stylesheet. Follow the link to take a peek!
 
 **Note**: For servers that live behind a login, you'll need to add an "s" to the http—tricking our servers into thinking the font is a protected file.
-
-
----
-
-[On to the next lesson.](06_exercise.md)

@@ -33,10 +33,11 @@ p {
 
 #### Opacity
 
-You'll use aplha to change the opacity of your element. See below:
+Web developers usually use alpha to change the opacity of an element. See below:
 
 ![](../assets/elkwebdesign/rgb.png)
 
----
+There's also a special "color" called <code>transparent</code> that sets the opacity of an element to 0.
 
-[On to the next lesson.](02_lessontemp.md)
+
+---

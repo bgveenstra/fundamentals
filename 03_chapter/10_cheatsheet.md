@@ -79,11 +79,15 @@ The format for color names, RGB, and hexadecimal should look like the following,
 p {
      color: red;
 }
+```
 
+```css
 p {
      color: (255,0,0);
 }
+```
 
+```css
 p {
      color: #FF0000;
 }
@@ -93,9 +97,9 @@ p {
 
 **font-family**
 
-To adjust the font of your selected text element, use the font-family property. For the value, enter the name of the font to which you’d like to alter your text. To be safe, try putting a comma after your selected font and enter a generic family as a fallback. If the web browser doesn’t support the font you selected, it will choose the fallback.
+To adjust the font of your selected text element, use the font-family property. For the value, enter the name of the font to which you’d like to alter your text. To be safe, add a comma after your selected font and enter a generic family as a fallback. If the web browser doesn’t support the font you selected, it will choose the fallback.
 
-```html
+```css
 h1 {
      font-family: Arial, sans-serif;
 }
@@ -103,7 +107,7 @@ h1 {
 
 If your selected font is more than one word, capitalize both words and put them in quotation marks.
 
-```html
+```css
 h1 {
      font-family: "Courier New", monospace;
 }
@@ -111,7 +115,7 @@ h1 {
 
 **font-size**
 
-To increase or decrease the spacial dimensions of your chosen text, use the font-size property. As a beginner, you’ll want to enter pixel values for your font-size values.
+To increase or decrease the spacial dimensions of your chosen text, use the font-size property. As a beginner, you can start by entering pixel values for your font-size values.
 
 ```css
 h3 {
@@ -119,33 +123,35 @@ h3 {
 }
 ```
 
-As you become more advanced, try using percentages or ems instead of pixels. These can be pretty tricky, though, so you may want to wait until we cover them in Unit 9.
+As you become more advanced, you'll probably use percentages, `em`s, or `rem`s more often than you use pixels. These measurements work better for sites that will be viewed on multiple screen sizes. (More on them later!)
 
 
 **font-weight**
 
 To adjust the thickness of your selected text, use the font-weight property.
 
-As a beginner, you can enter values like “normal” to make your text thin and “bold” to make your text thick. As these values aren’t very specific, different browsers may interpret their display with slightly different outputs.
+You can enter the values “normal” to make your text thin and “bold” to make your text thick. These values aren’t very specific, different browsers may interpret their display with slightly different outputs.
 
 ```css
 h1 {
      font-weight: normal;
 }
+```
 
-h1 {
+```css
+body {
      font-weight: bold;
 }
 ```
 
-As you become more advanced, try using the numbers 100, 200, 300, 400, 500, 600, 700, 800, and 900 as values to gain more granular control. With this system, 400 is roughly equivalent to “normal” and 700 roughly equals “bold.”
+For more granular control, you can use the numbers 100, 200, 300, 400, 500, 600, 700, 800, and 900 as values. With this system, 400 is roughly equivalent to “normal” and 700 roughly equals “bold.”
 
 ```css
 h1 {
      font-weight: 400;
 }
 
-h1 {
+a {
      font-weight: 700;
 }
 ```
@@ -159,7 +165,7 @@ a {
      font-style: italic;
 }
 
-a {
+h3 {
      font-style: normal;
 }
 ```
@@ -191,7 +197,8 @@ a {
      text-decoration: none;
 }
 ```
-Less commonly used values include “overline” to add a line above text and “line-through” which strikes a line through your text.
+
+Less commonly used values for text-decoration include "overline," which adds a line above text, and "line-through," which strikes a line through your text.
 
 **text-transform**
 
@@ -207,20 +214,18 @@ h1 {
 
 #### Classes vs. IDs
 
-Classes and IDs, also called selectors, are ways of targeting the style of specific HTML elements on your page.
+Classes and IDs are new selectors to set the style of specific HTML elements on your page.
 
-So what’s the difference between them?
+Classes are for groups of elements. IDs are only capable of styling a single element.
 
-In short, classes allow you to style many elements with a particular style, while IDs are only capable of styling a single element.
-
-Using these selectors allows you flexibility and control of styling individual, as well as groups, of elements on your page.
+Using these selectors allows you more flexibility and finer control than just using tag name selectors.
 
 #### HTML and Images
 
-When you’d like to add images to your site, you should use the tag with the “src” attribute. “src” stands for “Source” and works just like the tag’s “href” attribute. It tells the image tag where to find the image you’d want to include on your page.
+When you’d like to add images to your site, you should use the `img` tag with the “src” attribute. “src” stands for “Source” and works just like the tag’s “href” attribute. It tells the image tag where to find the image you’d want to include on your page.
 
 #### Relative vs. Absolute Addressing
 
-Relative addressing basically tells your browser: “Look in our project folder for the file specified. Or, if a folder is specified, look within that folder for the file specified.”
+Relative addressing basically tells your browser: “Look in our project folder for the file specified. Or, if the reference starts with a folder name, look within that folder for the file specified.”
 
-On the other hand, when we link to a source outside of our project, it is referred to as an absolute address.
+When we link to a source outside of our project we will use an absolute address.

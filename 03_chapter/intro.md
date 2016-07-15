@@ -14,17 +14,23 @@
 ---
 # Intro to CSS
 
-As we mentioned in the Unit 3, HTML, or **H**yper**T**ext **M**arkup **L**anguage, is the standard language used to code web pages and all of the content on a website is added with HTML. CSS, **C**ascading **S**tyle **S**heets, decides how content written in an HTML document looks including stylistic layouts, colors, and fonts.
+As we mentioned in the previous unit, HTML, or **H**yper**T**ext **M**arkup **L**anguage, is the standard language used to code web pages. All of the content on a website is added with HTML. CSS, **C**ascading **S**tyle **S**heets, is another language.  CSS decides how content that is written in an HTML document looks in the browser, including layouts, colors, and fonts.
 
 In this unit, we'll learn more about CSS and styling to create better designed websites!
 
 <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="//fast.wistia.net/embed/iframe/32r0wluyl3?seo=false&videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe></div></div>
 <script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
 
-#### Checkpoint:
 
-* Why is it important to create separate HTML and CSS documents? Can you explain separation of concerns in greater detail?
+### CSS selectors
 
+You've seen how to use HTML tag names to **select** which elements your CSS styles should apply to.
+
+```css
+p {
+  background-color: yellow;
+}
+```
+
+In this CSS code, we're telling the browser to **select** all the `<p>` elements and apply a background color to them.  For this reason, the `p` in the code above is called a CSS **selector**.  You'll learn a variety of more granular CSS selectors as you go through Fundamentals and during your FEWD course. 
 ---
-
-[On to the lesson.](02_lesson.md)
