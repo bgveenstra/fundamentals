@@ -4,7 +4,7 @@
 
 ##Thinking Programmatically
 
-Before you set out to write a program it is important to understand how computers "think." Computers solve problems differently than you or I might. They do not learn to perform tasks but need detailed, step-by-step instructions every time they perform a task.
+Before you set out to write a program, it is important to understand how computers "think." Computers solve problems differently than you or I might. They do not learn to perform tasks but need detailed, step-by-step instructions every time they perform a task.
 
 The only things a computer knows are the things we tell it.
 
@@ -59,7 +59,7 @@ Breaking down problems in this fashion will likely seem a little foreign in the 
 
 Many of the programs that you'll be working on in the following chapters might seem a little daunting at first. Instead of trying to tackle a problem all at once, take a few minutes to think about the overall goal of the program and then break that down into series of short instructions. It will surely be time well spent.
 
-> **HINT** You could write psuedo code for your memory game! How would you get started? 
+> **HINT** You could write psuedo code for your memory game! How would you get started?
 
 ---
 
