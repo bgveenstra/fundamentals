@@ -1,15 +1,13 @@
-**Welcome to WDI Fundamentals**
+**Welcome to FEWD Fundamentals**
 
 ---
 
 #### Units & Lessons
 
-This ebook has 11 units; each unit contains lessons, [exercises, and assignments](03_lesson.md).
+This ebook is split into units. Each unit contains a mixture of lessons and exercises to help you practice new concepts and tools.
 
-* Every unit has objectives at the beginning. This is where we'll share the most important takeaways.
+* Every unit has objectives at the beginning. These are the most important takeaways from the unit; pay special attention to these goals as you go through the content.
 
-* Each lesson covers a new topic related to HTML, CSS, JavaScript, or developer tools. Lessons are structured with explanations and plenty of examples to help you grasp these new topics. In this interactive ebook, we'll review the HTML and CSS concepts you learned during your admissions assignment ([Dash](https://dash.generalassemb.ly/)), and also cover some new ground.  
+* Every unit has a cheatsheet at the end.  The cheatsheet summarizes important information from the unit, but many developers find it helpful to take their own notes as well.
 
-HTML and CSS lessons include *videos!*
-
-Coming Soon! General Assembly's product team is creating high quality videos for our JavaScript lessons.
+* In this interactive ebook, you'll get a deeper understanding of how the web works, explore some tools developers use, and learn fundamentals of three programming languages - HTML, CSS, and JavaScript.  These are the languages of the web's front end.
