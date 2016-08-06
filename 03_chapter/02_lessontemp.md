@@ -4,7 +4,7 @@
 
 # Styling with Text Treatment
 
-As you learn to style your website, you'll want to get more creative with the types of fonts you use as well as font size and much more! You'll also want to start aligning your text in your website to suit your needs! Let's explore how to do so!
+As you learn to style websites, you be able to get more creative with the types of fonts you use, font size, text alignment, and many more properties. Let's explore how to do so!
 
 <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="//fast.wistia.net/embed/iframe/mpderhu818?seo=false&videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe></div></div>
 <script src="//fast.wistia.net/assets/external/E-v1.js" async></script>

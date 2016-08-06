@@ -1,20 +1,30 @@
-**FEWD Fundamentals Unit 1**
+**Welcome to FEWD Fundamentals**
 
 ---
 
+## Projects and Exercises
 
-### About Me Site Project
+### Projects
+
+#### About Me site
 
 Throughout the fundamentals, you'll be applying new skills to build an "About Me" website. There are detailed instructions for how to complete a step of the project in each unit. You'll be asked to submit your "About Me" site when you start the FEWD course.
+
+#### Dash Projects
+
+In addition to the About Me project, you'll be comepleting some project from General Assembly's "Dash" series.  Dash includes step-by-step guides to set up a website. We'll link you to Dash projects that mirror the steps you might take for your About Me project.
 
 
 ### Exercises
 
 The About Me project will help you tie together all the skills you learn in Fundamentals.
 
-We also want you to be able to practice each skill as you go, so this ebook is interactive! Within many units, we've included practice exercises using a web-based text editor that allows you to practice HTML, CSS, and JavaScript without leaving the page.
+We also want you to be able to practice each skill as you go, so this ebook is interactive!  In most units, you'll find practice exercises using a web-based text editor that allows you to practice HTML, CSS, and JavaScript without leaving the page.
 
-The code editor is called JS Bin, and you can see an example below.  In JS Bin, you type your code directly into the text editor without leaving the ebook. You can click the various tabs (HTML, CSS, JAVASCRIPT) to open or close the corresponding file.
+
+#### JS Bin
+
+The text editor inside this book is called JS Bin, and you can see an example below. You can click the various tabs (HTML, CSS, JAVASCRIPT) to open or close the corresponding file.
 
 Clicking OUTPUT opens or closes the OUTPUT column.  The OUTPUT column displays or "renders" your work as it would look in a web browser.  
 

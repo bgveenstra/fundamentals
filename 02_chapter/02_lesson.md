@@ -4,9 +4,9 @@
 
 # Elements, Elements, Elements!
 
-Let's dive deeper into the rules and syntax for writing HTML.
+Let's dive into the rules and syntax for writing HTML.
 
-HTML doesn't understand the spaces and line breaks in your code. That's where **element tags** can help out!
+HTML doesn't pay attention to spaces and line breaks in your code. If you want to add structure or even line breaks, **element tags** can help out!
 
 **Elements** provide the basic structure for any website. They consist of **opening** and **closing tag** and all the content in between. The tags tell the browser exactly which kind of content it's dealing with.
 
@@ -15,7 +15,7 @@ For example, an opening header tag (`<h1>`) and closing header tag (`<\h1>` ) te
 <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="//fast.wistia.net/embed/iframe/njzywy6ci7?seo=false&videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe></div></div>
 <script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
 
-Note that while this video skips from an `<h1>` tag to an `<h3>` tag for sizing reasons, it's better practice to use the header tag that's appropriate for your content's organization and change sizes with CSS styling. This helps automated tools or people with screen readers navigate your site more easily.  We'll see how to do this later with CSS!
+Note that while this video skips from an `<h1>` tag to an `<h3>` tag for sizing reasons, it's better practice to use the header tag that's appropriate for your content's organization and change sizes with CSS styling. This helps automated tools or people with screen readers navigate your site more easily.  You'll see how to do this later with CSS!
 
 #### Checkpoint:
 
@@ -25,5 +25,3 @@ Note that while this video skips from an `<h1>` tag to an `<h3>` tag for sizing 
 * How do you create placeholder for a link?
 
 ---
-
-Think you've got it? [Then let's get some practice!](03_exercise.md)

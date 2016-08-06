@@ -4,9 +4,15 @@
 
 #HTML Boilerplate
 
-We've learned a bit about HTML tags, but we don't know much yet about their context and how to properly organize tags. To do this, we'll look at some HTML boilerplate code. In web development, "boilerplate" code is standard code that can be reused as a starting point for many different projects.  The HTML boilerplate gives a standard, starter set of structural elements that help us organize the rest of our code. This helps developers read through HTML smoothly, and it tells browsers how to format a site! Always use the HTML boilerplate in your HTML documents.
+We've learned a bit about HTML tags, but we don't know much yet about their context and how to properly organize tags. We'll start with HTML boilerplate.
 
-Here's a common HMTL boilerplate:
+In web development, "boilerplate" code is standard code that can be reused as a starting point for many different projects.  
+
+The HTML boilerplate gives a standard, starter set of structural elements that help us organize the rest of our code.
+
+This helps developers read through HTML smoothly, and it tells browsers how to format a site! Always use the HTML boilerplate in your HTML documents.
+
+Here's a common HMTL boilerplate with some extra comments:
 
 ```html
 <!DOCTYPE html>

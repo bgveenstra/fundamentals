@@ -35,7 +35,7 @@
 		* [Exercise](04_chapter/04_exercise.md)
 	* [Header, Footer, Nav](04_chapter/05_lesson.md)
 	* [Semantic Elements](04_chapter/06_lesson.md)
-		* [Exercise](04_chapter/08_exercise.md)
+		<!-- * [Exercise](04_chapter/08_exercise.md) -->
 	<!-- * [Quiz](04_chapter/09_quiz.md) -->
 	* [Cheat Sheet](04_chapter/10_cheatsheet.md)
 	* [Unit 4 Assignment](04_chapter/11_assesment.md)		
@@ -43,9 +43,9 @@
 	* [Vertical Navigation](05_chapter/02_lesson.md)
 	* [Floating and Clearing](05_chapter/04_lesson.md)
 	* [Horizontal Navigation](05_chapter/05_lesson.md)
-		* [Exercise](05_chapter/03_exercise.md)
+		<!-- * [Exercise](05_chapter/03_exercise.md) -->
 	* [Column Layout](05_chapter/07_lesson.md)
-		* [Exercise](05_chapter/06_exercise.md)
+		<!-- * [Exercise](05_chapter/06_exercise.md) -->
 	<!-- * [Quiz](05_chapter/10_quiz.md) -->
 	* [Cheat Sheet](05_chapter/09_cheatsheet.md)
 	* [Unit 5 Assignment](05_chapter/08_assesment.md)

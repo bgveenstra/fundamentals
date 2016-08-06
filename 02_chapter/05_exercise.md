@@ -4,7 +4,7 @@
 
 ##![Your Turn](../assets/exercise.png) Your Turn
 
-In this exercise, you'll write your first **hyperlinks**: those wonderful, clickable links that get you from one place to another on the web!
+In this exercise, you'll work with **hyperlinks**: those wonderful, clickable links that get you from one place to another on the web!
 
 When complete, your output should look like this:
 
@@ -15,7 +15,7 @@ When complete, your output should look like this:
 
 Use the editor provided below to write your code and see what renders!
 
-<a class="jsbin-embed" href="https://jsbin.com/vuquwe/embed?htmlheight=600px">JS Bin on jsbin.com</a><script src="https://static.jsbin.com/js/embed.min.js?3.35.12"></script>
+<a class="jsbin-embed" href="https://jsbin.com/vuquwe/embed?htmlheight=600px">JS Bin on jsbin.com (reload page if JSBin is not showing)</a><script src="https://static.jsbin.com/js/embed.min.js?3.35.12"></script>
 
 
 1 . Give your website some content: introduce yourself, mention one social media account (or any website of your choosing), and ask for an email. Something like this should work:
@@ -41,7 +41,7 @@ Example:
 
 6 . In the `href`, put `mailto:` in front of your email address. This tells the browser to treat the hyperlink reference as an email address instead of a web page!
 
-`Send me an <a href="mailto:me@email.com"> email </a>.`
+`Send me an <a href="mailto:me@email.com">email</a>.`
 
 > **NOTE** HTML pays attention to spaces between tags. Only words should be hyperlinked, not spaces or punctuation.
 
@@ -60,8 +60,5 @@ Make sure you have:
 - Wrapped the rest of the content in two paragraphs, or p elements.
 - Linked to another web page.
 - Created an email link with the proper email or with a  placeholder.
-
-
-You can do a lot of neat things using attributes and links. Let's keep going!
 
 ---

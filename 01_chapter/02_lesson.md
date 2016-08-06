@@ -1,4 +1,4 @@
-**WDI Fundamentals Unit 1**
+**FEWD Fundamentals Unit 1**
 
 ---
 
